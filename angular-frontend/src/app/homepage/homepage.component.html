@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="col-xs-12">
+        <h1>Find Subreddit</h1>
+    </div>
+</div>
+
+<form (ngSubmit)="onSubmit()" > 
+    <div class="input-div">
+        <input class='search-input' type="text" [formControl]="subreddit_name" placeholder="Enter subreddit name" name="subreddit_name">    
+    </div>
+    <p id='error-msg' class='error-msg'></p>
+
+    <div class="submit-div">
+		<button type="submit" class="action-btn">Lookup Subreddit</button>
+	</div>
+</form>

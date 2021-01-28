@@ -1,0 +1,57 @@
+h1 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 1px;
+}
+
+.search-input {
+    margin-top: 40px;
+    width: 25%;
+    height: 40px;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: larger;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.error-msg {
+    text-align: center;
+    letter-spacing: 1px;
+    color: red;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.action-btn {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    margin-top: 10px;
+
+    justify-content: center;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #1976d2;
+    box-sizing: border-box;
+    border: 2px solid #1976d2;
+    color: white;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.action-btn:hover {
+    background-color: #061d34;
+    border: 2px solid #061d34;
+    color: white;
+}
+
+.input-div {
+    height: 60px;
+}
