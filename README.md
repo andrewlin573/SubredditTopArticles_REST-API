@@ -6,7 +6,6 @@ http://subreddittopposts-env.eba-usmyq88r.us-east-1.elasticbeanstalk.com/
 
 ### Launching application locally
 - Download the repository code
-- In the command line, change directory to "backend" and run "python3 application.py"
 - Open new directory and change directory to "node-server" and run "node server.js"
 - Go to http://localhost:4200/
 
